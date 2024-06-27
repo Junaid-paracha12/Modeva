@@ -9,6 +9,7 @@ import {
   MagnifyingGlassIcon,
   UserIcon,
   ShoppingCartIcon,
+  Bars3Icon
 } from "@heroicons/react/24/solid";
 
 export default function Navbar() {
@@ -90,9 +91,9 @@ export default function Navbar() {
                 } p-1.5 rounded-full`}
                 onClick={() => setPopupModalState(!popupModalState)}
               >
-                <Image
-                  src="/menu.png"
-                  alt="menu/png"
+                
+                <Bars3Icon
+                
                   width={20}
                   height={20}
                   className={`   ${navState ? "text-white" : "text-black"}`}
