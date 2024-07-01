@@ -31,13 +31,13 @@ export default function Hero({ imgsrc, title, text }) {
       <div className="absolute top-0 w-full h-full bg-slate-500 bg-opacity-30 app-container">
         <div className="flex flex-col h-full px-7 mt-24 py-5">
           <div className="max-w-md">
-            <p className="text-white text-sm">{text}</p>
-            <h1 className="text-white text-5xl font-medium">{title}</h1>
+            <p className="text-white text-xs md:text-sm">{text}</p>
+            <h1 className="text-white text-2xl md:text-3xl lg:text-5xl font-medium">{title}</h1>
           </div>
 
-          <div className="flex flex-col gap-5  items-end w-full">
+          <div className="flex flex-row md:flex-col gap-5  items-end w-full">
             {card.map((v, i) => (
-              <div key={i} className="bg-white h-36 w-72 grid grid-cols-2">
+              <div key={i} className="bg-white h-auto md:h-36 w-auto md:w-72 grid grid-cols-2 ">
                 <div>
                   <Image
                     src={v.img}

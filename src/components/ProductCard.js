@@ -34,9 +34,9 @@ export default function Card({
         </div>
       </div>
       <div>
-        <p className="text-sm">{category}</p>
-        <h2 className="text-2xl ">{name}</h2>
-        <p className="text-sm">{price}</p>
+        <p className="text-xs lg:text-sm">{category}</p>
+        <h2 className="text-xl lg:text-2xl ">{name}</h2>
+        <p className="text-xs lg:text-sm">{price}</p>
       </div>
     </div>
   );

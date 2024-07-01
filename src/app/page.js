@@ -85,11 +85,11 @@ export default function Page() {
       />
       <Categaries />
       <div className=" app-container">
-        <h1 className="text-5xl font-normal py-4 max-w-lg">
+        <h1 className="text-xl sm:text-3xl md:text-4xl lg:text-5xl text-center md:text-start font-normal py-4 max-w-lg">
           {" "}
           the best dress for the best woman
         </h1>
-        <div className="grid grid-cols-4 gap-5">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
           {women.map((item, index) => (
             <Card
               key={index}
@@ -113,11 +113,11 @@ export default function Page() {
       </div>
 
       <div className=" app-container">
-        <h1 className="text-5xl font-normal py-4 max-w-lg">
+        <h1 className="text-xl sm:text-3xl md:text-4xl lg:text-5xl text-center md:text-start font-normal py-4 max-w-lg">
           {" "}
           Best outfit for your happiness{" "}
         </h1>
-        <div className="grid grid-cols-4 gap-5 app-container">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
           {men.map((item, index) => (
             <Card
               key={index}

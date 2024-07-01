@@ -39,9 +39,9 @@ export default function Reviews() {
                   <div className="flex items-center gap-2.5 ">
                     <span className="w-9 h-9 rounded-full bg-sky-800"></span>
                     <span className="flex flex-col ">
-                      <h1 className=" text-xl">{v.name}</h1>
+                      <h1 className="text-base lg:text-xl">{v.name}</h1>
 
-                      <p className=" text-sm md:text-xs  ">{v.date}</p>
+                      <p className=" md:text-sm text-xs  ">{v.date}</p>
                     </span>
                   </div>
                   <StarIcon
